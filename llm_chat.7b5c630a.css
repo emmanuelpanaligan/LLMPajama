@@ -79,15 +79,14 @@ s .chatui-header {
 .chatui-inputarea {
   bbackground-color: transparent;
   border-top: 2px solid #ddd;
-  padding: 10px;
   display: flex;
+  width: 100%;
 }
 
 .chatui-inputarea * {
   border: none;
-  border-radius: 3px;
-  padding: 10px;
   font-size: 1em;
+  width: 100%;
 }
 
 .chatui-input {
