@@ -1,19 +1,14 @@
 .chatui {
-  border: 2px solid #ddd;
-  border-radius: 5px;
   flex-flow: column wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 867px;
-  height: 600px;
-  margin: 25px 10px;
+  height: 100%;
   display: flex;
-  box-shadow: 0 15px 15px -5px #0003;
 }
 
 s .chatui-header {
   color: #666;
-  background: #eee;
+  background:rgba(255,255,255, 0.3);
   border-bottom: 2px solid #ddd;
   justify-content: space-between;
   padding: 10px;
@@ -79,7 +74,7 @@ s .chatui-header {
 }
 
 .chatui-inputarea {
-  background: #eee;
+  background:rgba(255,255,255, 0.3);
   border-top: 2px solid #ddd;
   padding: 10px;
   display: flex;
@@ -93,7 +88,7 @@ s .chatui-header {
 }
 
 .chatui-input {
-  background: #ddd;
+  background:rgba(255,255,255, 0.3);
   flex: 1;
 }
 
