@@ -1,3 +1,7 @@
+body{
+  font-family: 'Tomorrow'
+}
+
 .chatui {
   flex-flow: column wrap;
   justify-content: space-between;
@@ -105,15 +109,16 @@ s .chatui-header {
 }
 
 .chatui-send-btn {
-  color: #fff;
+  color: #000;
   cursor: pointer;
+  border-radius: 8px;
   background: #FFCC2E;
   margin-left: 10px;
   font-weight: bold;
 }
 
 .chatui-send-btn:hover {
-  background: #577bfb;
+  background: #dcdada;
 }
 
 .chatui-chat {
